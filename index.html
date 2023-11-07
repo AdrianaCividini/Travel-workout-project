@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel - My hobby</title>
+    <style>
+      body {
+        background: radial-gradient(rgb(196, 167, 235) 3px, transparent 4px),
+          radial-gradient(rgb(220, 15, 220) 3px, transparent 4px),
+          linear-gradient(#fff 4px, transparent 0),
+          linear-gradient(
+            45deg,
+            transparent 74px,
+            transparent 75px,
+            #a4a4a4 75px,
+            #a4a4a4 76px,
+            transparent 77px,
+            transparent 109px
+          ),
+          linear-gradient(
+            -45deg,
+            transparent 75px,
+            transparent 76px,
+            #a4a4a4 76px,
+            #a4a4a4 77px,
+            transparent 78px,
+            transparent 109px
+          ),
+          #e377e7;
+        background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px,
+          109px 109px;
+        background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+      img {
+        width: 100%;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid pink;
+        background: white;
+        font-size: 18px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        background: pink;
+        cursor: pointer;
+      }
+      .container {
+        max-width: 500px;
+        margin: 20px auto;
+        background: rgb(252, 249, 249);
+        padding: 20px;
+        border-radius: 10px;
+      }
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+        background-color: white;
+      }
+      .theme-button {
+        font-size: 12px;
+        background: black;
+        color: white;
+        padding: 5px 8px;
+      }
+      .theme-button:hover {
+        color: black;
+        background: white;
+      }
+      .trip-picture-one {
+        border-radius: 10px;
+        transition: transform 150ms ease-in-out, filter 2000ms ease-in;
+      }
+      .trip-picture-one:hover {
+        filter: contrast(50%);
+        transform: scale(1.3);
+      }
+      .grid {
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+      }
+      .grid img {
+        width: 100%;
+        border-radius: 10px;
+        transition: all 500ms ease-in-out;
+      }
+      .grid img:hover {
+        transform: scale(2) rotate(710deg);
+        border: 3px solid rgb(125, 122, 126);
+      }
+
+      .dark {
+        background: black;
+        color: white;
+      }
+      .dark .container {
+        background: rgba(225, 255, 255, 0.1);
+      }
+      .dark a {
+        color: pink;
+      }
+      .container img {
+        border: 3px solid pink;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change Theme</button>
+    <div class="container">
+      <h1>Travel🧳</h1>
+      <h2>My favorite hobby!</h2>
+      <a href="https://www.instagram.com/dri_cividini/" target="_blank">
+        <img
+          src="https://images.unsplash.com/photo-1502920514313-52581002a659?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D"
+          alt=""
+          class="trip-picture-one"
+        />
+      </a>
+      <div class="grid">
+        <img
+          src="https://images.unsplash.com/photo-1532274402911-5a369e4c4bb5?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&q=80&w=2021&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt=""
+        />
+        <img
+          src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        />
+      </div>
+      <p>
+        There are many benefits of travelling as a hobby from seeing amazing new
+        places and understanding different cultures to a personal feeling of
+        accomplishment and even learning a new language. I’m not trying to claim
+        for one second that spending a week in another country teaches you
+        everything about the place.
+      </p>
+      <button>☆Go Travel☆</button>
+    </div>
+    <footer>
+      Go travel with
+      <a href="https://www.instagram.com/dri_cividini/" target="_blank">
+        Adriana Cividini</a
+      >
+    </footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
